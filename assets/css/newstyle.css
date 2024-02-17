@@ -1,0 +1,472 @@
+/***** about page css  Section *****/  
+
+
+/*****main Section *****/ 
+#main .container .row  {
+    margin-top: 86px;
+    padding-bottom: 84px;
+    border-bottom: 1px solid #7A7A7A;
+}
+#main .container .row .main_child_one{
+    width: 40%;
+}
+#main .container .row .main_child_one img{
+    height: 100%;
+}
+#main .container .row .main_child_two{
+    width: 60%;
+}
+#main .container .row .main_child_two .header{
+    width: 100%;
+    margin-bottom: 100px;
+}
+#main .container .row .main_child_two .header p{
+    font-size: 19px;
+    font-weight: 400;
+    text-align: justify;
+    color: #7A7A7A;
+}
+#main .text{
+    color: #353535;
+    font-size: 19px;
+}
+#main .container table tr .common{
+    font-size: 19px;
+
+    font-weight: 500;
+}
+#main .container table  {
+    line-height: 45px;
+    margin-top: 50px;
+}
+#main .container table tr td a{
+    text-decoration: underline;
+    color: rgb(91, 178, 236);
+}
+#main .container .table_section{
+    display: flex;
+    gap: 55px;
+}
+#main .container .main_child_two button{
+    margin-top:44px;
+    padding: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffff;
+    border-radius: 12px;
+    border: none;
+    background:#FFCC00;
+    line-height: 0;
+}
+
+/***** End Section *****/
+
+/*****Experience Section *****/
+#time_line .container .row .time_line_section_one{
+    width: 50%;
+
+}
+#time_line .container .row .time_line_section_one .header h2{
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+    color: #353535;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+#time_line .container .row .time_line_section_one .time_line_f{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0 0 45px 55px;
+}
+#time_line .container .row .time_line_section_one .time_line_f:nth-child(3){
+    padding-bottom: 30px ;
+}
+#time_line .container .row .time_line_section_one .time_line_f .row{
+    font-size: 16px;
+    color:#7A7A7A ;
+    align-items: center;
+    gap: 13px;
+    font-weight: 400;
+    /* margin-bottom: 10px; */
+
+}
+#time_line .container .row .time_line_section_one .time_line_f h4{
+    font-size: 20px;
+    color: #353535;
+    font-weight:600;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+}
+#time_line .container .row .time_line_section_one .time_line_f .one{
+    font-size: 18px;
+    color: #7A7A7A;
+    font-weight: 400;
+    width: 470px;
+    margin-bottom: 0;
+}
+#time_line .container .row .time_line_section_one .time_line_f::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    left: 13px;
+    z-index: 99;
+    top: 10px;
+}
+#time_line .container .row .time_line_section_one .time_line_f::after{
+    position: absolute;
+    content: '';
+    width: 34px;
+    height: 34px;
+    left: 2px;
+    border: 2px dashed #7A7A7A;
+    border-radius: 50%;
+    top: 0;
+    background: rgb(255, 255, 255);
+}
+#time_line .container .row .time_line_section_one .time_line_f:nth-child(1)::before{
+    background: #52AB70;
+}
+#time_line .container .row .time_line_section_one .time_line_f:nth-child(2)::before{
+    background: #F17676;
+}
+#time_line .container .row .time_line_section_one .time_line_f:nth-child(3)::before{
+    background: #FFD233;
+}
+#time_line .content_time_line{
+    position: relative;
+    z-index: 69;
+    
+}
+#time_line .content_time_line::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    border-left: 2px dashed #7A7A7A;
+    height: 100%;
+    /* left: 20px; */
+    left: 20px;
+
+
+}
+/***** End Section *****/
+
+/*****about skills Section *****/ 
+
+#about_skills{
+    margin-top: 80px;
+}
+#about_skills .container .row {
+    gap: 10px;
+
+}
+#about_skills .container .row .skill_leet_section{
+    width: calc(33.33% - 10px);
+    height: 50px;
+}
+#about_skills .container h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 45px;
+    color: #353535;
+}
+#about_skills .container .row .skill_leet_section p{
+    font-size: 18px;
+    color: #353535;
+    font-weight: 600;
+}
+#about_skills .container .row .skill_leet_section .ber_Skill{
+    width: 100%;
+    height: 4px;
+    background:#D9D9D9 ;
+    border-radius: 20px;
+    margin-top: 16px;
+
+}
+#about_skills .container .row .skill_leet_section .ber_Skill .local{
+    width: 95%;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 100%;
+    position: relative;
+    text-align: right;
+
+}
+#about_skills .container .row .skill_leet_section .ber_Skill .local .pers{
+    position: absolute;
+    top: -40px;
+    right: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+/***** End Section *****/
+
+
+
+
+/***** Section five  *****/ 
+#five_design{
+    margin-top: 95px;
+}
+#five_design .container ul{
+    display: flex;
+
+}
+#five_design .container ul li:nth-child(1) a{
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+#five_design .container ul li a{
+    font-size: 18px;
+    padding: 16px 63px;
+    color: #353535;
+    font-weight: 500;
+}
+#five_design .container .row{
+    gap: 50px;
+}
+#five_design .container .row .details_child{
+    width: 530px;
+    border-radius: 20px;
+    margin-top: 60px;
+    
+}
+#five_design .container .row .details_child img{
+    /* height: 100%; */
+    /* object-fit: cover; */
+    height: 324px;
+    width: 100%;
+    border-radius: 20px;
+}
+#five_design .container .row .details_child  h2{
+    font-size: 24px;
+    color: #353535;
+    margin-bottom: 0;
+    /* line-height: 0; */
+
+}
+#five_design .container .row .details_child a{
+
+    font-size: 16px;
+    margin: 22px 0 6px 0;
+    display: inline-block;
+    text-decoration: underline;
+    color: #7A7A7A;
+}
+/***** End  five  *****/
+/*****poster Section *****/ 
+#poster_or_letter{
+    margin-top: 70px;
+}
+#poster_or_letter .container .row{
+    margin-bottom: 109px;
+    gap: 45px;
+}
+#poster_or_letter .container .row .big{
+    width:calc(52% - 50px);
+}
+#poster_or_letter .container .row .small{
+    width: 48%;
+    /* background: red; */
+}
+#poster_or_letter .container .row .content_poster_letter .row{
+    gap: 15px;
+    color: #7A7A7A;
+    margin-top: 35px;
+    align-items: center;
+    font-size: 18px;
+}
+#poster_or_letter .container .row .content_poster_letter h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #353535;
+}
+#poster_or_letter .container .row .content_poster_letter .p_one{
+    font-size: 18px;
+    color: #7A7A7A;
+    margin-top: 13px;
+
+    font-weight: 400;
+}
+
+#poster_or_letter .container .row .content_poster_letter .p_three{
+    font-size: 18px;
+    font-weight: 500;
+    color: #353535;
+}
+/***** End Section *****/
+
+/*****blog main Section *****/
+#main_section .container .row{
+    gap: 30px;
+}
+#main_section .container .row .main_section_child .blog_img{
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+#main_section .container .row .main_section_child .blog_img .overley{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    transform: scale(0);
+    color: #ffff;
+    transition: 0.5s;
+    transform-origin: bottom left;
+    
+}
+#main_section .container .row .main_section_child .blog_img .overley i{
+    transform: rotate(45deg);
+}
+#main_section .container .row .main_section_child .blog_img:hover .overley{
+    transform: scale(1);
+}
+#main_section .container .row .main_section_child{
+    width: calc(33.33% - 30px);
+    border-radius: 20px;
+    margin-top: 90px;
+
+}
+#main_section .container .row .main_section_child .blog_img img{
+    width: 100%;
+    height: 100%;
+}
+
+#main_section .container .row .main_section_child h5{
+    font-size: 20px;
+    color: #353535;
+    margin-top: 35px;
+}
+#main_section .container .row .main_section_child .one{
+    font-size: 16px;
+    color: #7A7A7A;
+    margin-top: 9px;
+    margin-bottom: 18px;
+}
+#main_section .container .row .main_section_child  .row{
+    font-size:16px ;
+    color: #7A7A7A;
+    align-items: center;
+    gap: 15px;
+    font-weight: 400;
+
+}
+#main_section .container .row .main_section_child .three{
+    color: #353535;
+    font-weight: 500;
+    margin-left: 12px;
+}
+/***** End Section *****/
+/*****contact Section *****/
+#form_location {
+    margin-top: 100px;
+    margin-bottom: 100;
+}
+#form_location .container .row {
+    gap: 20px;
+    
+}
+#form_location .container .row .location_c{
+    width: 40%;
+}
+#form_location .container .row .location_c .address:nth-child(1){
+    margin-top: 0;
+}
+#form_location .container .row .location_c .row{
+    align-items: center;
+}
+#form_location .container .row .location_c h4{
+    font-size: 24px;
+    color: #353535;
+    font-weight: 500;
+}
+#form_location .container .row .location_c p{
+    font-size: 17px;
+    color: #7A7A7A;
+    font-weight: 400;
+}
+#form_location .container .row .location_c .address{
+    margin-top: 38px;
+}
+#form_location .container .row .location_c .address .loca{
+    font-size: 28px;
+    color: #F16500;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #FFEBDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form_location .container .row .location_c .address .maill{
+    font-size: 28px;
+    color: #55852F;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #F0FFE4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#form_location .container .row .location_c .address .colo_mail{
+    font-size: 28px;
+    color: #234BDA;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #EEF2FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form_location .container .row .form{
+    width: calc(60% - 20px);
+}
+#form_location .container .form .row{
+    align-items: center;
+    justify-content: center;
+}
+#form_location .container input{
+    width: 48%;
+    padding: 20px 32px;
+    font-size: 17px;
+    color: #7A7A7A;
+    border-radius: 12px;
+    border: 1px solid #7A7A7A;
+    outline: none;
+    font-weight: normal;
+}
+#form_location .container textarea{
+    font-size: 17px;
+    padding: 20px 32px;
+    color: #7A7A7A;
+    border-radius: 12px;
+    border: 1px solid #7A7A7A;
+    outline: none;
+    width: 98%;
+    
+}
+#form_location .container button{
+    background: #FFCC00;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px ;
+    cursor: pointer;
+    color: #ffff;
+    padding: 14px 46px;
+}
+/***** End Section *****/
